@@ -25,6 +25,11 @@ Open your terminal and run the following command:
 ```bash
 git clone https://github.com/niladri-1/YouTube-Auto-Pause-Play.git
 ```
+OR
+
+Alternatively, you can download the ZIP file by clicking the button below:
+ <a href="https://github.com/niladri-1/YouTube-Auto-Pause-Play/archive/refs/heads/main.zip" target="_blank" style="display: inline-block; padding: 5px 20px; background-color: #007bff; color: #fff; border-radius: 25px; text-decoration: none; margin-left: 5px">Download ZIP</a>
+
 
 ### Step 2: Load the Extension in Chrome
 
