@@ -1,0 +1,28 @@
+{
+	"manifest_version": 3,
+	"name": "YouTube Auto Pause/Play",
+	"version": "3.7.2",
+	"description": "Automatically pause YouTube videos when you switch tabs or windows and play them when you return (if enabled).",
+	"icons": {
+		"48": "icon.png"
+	},
+	"permissions": [
+		"storage"
+	],
+	"host_permissions": [
+		"*://www.youtube.com/*"
+	],
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"*://www.youtube.com/*"
+			],
+			"js": [
+				"content.js"
+			]
+		}
+	]
+}
